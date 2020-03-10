@@ -21,7 +21,7 @@ mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 mFirebaseAnalytics.logEvent("Tên Event", new Bundle());
 ```
 
-Có thể truyền thêm thông tin vào bundle để log sự kiện chi tiết hơn (chưa cần dùng đến)
+Có thể truyền thêm thông tin vào bundle để log sự kiện chi tiết hơn (chưa cần dùng đến, đang test lại)
 ```
 Bundle params = new Bundle();
 params.putString("image_name", name);
