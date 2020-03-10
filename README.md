@@ -1,6 +1,10 @@
 # Tracking-Firebase
 Cách gắn tracking firebase
 
+### Copy file google-services.json (bên MKT sẽ cung cấp) vào package app
+Ví dụ với app có tên HighlightStory thì đường dẫn sẽ như sau <br>
+E:\AndroidStudioProjects\HighlightStory\app
+
 ### Thêm dependency Google Analytics Android vào app/build.gradle
 ```
 implementation 'com.google.firebase:firebase-analytics:17.2.3'
