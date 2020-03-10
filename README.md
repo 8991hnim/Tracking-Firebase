@@ -21,7 +21,7 @@ mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 ```
 
 ## LOG EVENT
-Tên event phải có lengh < 40 kí tự
+Lưu ý: Tên event phải < 40 kí tự
 
 ```
 mFirebaseAnalytics.logEvent("Tên Event", new Bundle());
